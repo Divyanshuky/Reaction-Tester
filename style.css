@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#shape {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
